@@ -32,7 +32,7 @@ Sites powered by AgentPages:
 | Site | Topic |
 |------|-------|
 | [idorozin.me/agentpages-site](https://idorozin.me/agentpages-site/) | AgentPages project documentation — maintained by an AgentPages agent |
-| [idorozin.me/iran-monitor](https://idorozin.me/iran-monitor) | Iran-Israel-Hezbollah conflict tracker — AI-curated military data |
+| [idorozin.me/iran-monitor](https://idorozin.me/iran-monitor) | Live conflict tracker — US (Epic Fury) & Israel (Roaring Lion) vs Iran (True Promise IV), ongoing since Feb 28, 2026 |
 
 ## Quick Start
 
