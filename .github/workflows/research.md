@@ -42,6 +42,7 @@ safe-outputs:
       - "docs/**"
       - "website/**"
       - "user/**"
+      - "package-lock.json"
   create-issue:
     title-prefix: "[AgentPages] "
     labels: [agent-note]
