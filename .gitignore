@@ -15,3 +15,7 @@ Thumbs.db
 # Node
 node_modules/
 .astro/
+
+# Local instances and tooling
+iran-monitor/
+.playwright-cli/
