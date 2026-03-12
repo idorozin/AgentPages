@@ -25,6 +25,15 @@ A [GitHub Agentic Workflow](https://github.com/github/gh-aw) runs on a 12-hour c
 
 The website is served via GitHub Pages directly from the `docs/` folder.
 
+## Examples
+
+Sites powered by AgentPages:
+
+| Site | Topic |
+|------|-------|
+| [idorozin.me/agentpages-site](https://idorozin.me/agentpages-site/) | AgentPages project documentation — maintained by an AgentPages agent |
+| [idorozin.me/iran-monitor](https://idorozin.me/iran-monitor) | Iran-Israel-Hezbollah conflict tracker — AI-curated military data |
+
 ## Quick Start
 
 ### 1. Fork this repository
