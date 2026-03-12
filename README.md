@@ -104,7 +104,13 @@ git push
 
 Go to your repo **Settings** → **Pages** → Source: **Deploy from a branch** → Branch: `main`, Folder: `/docs` → **Save**.
 
-### 9. Run the agent
+### 9. Allow Actions to create pull requests
+
+Go to your repo **Settings** → **Actions** → **General** → scroll to "Workflow permissions" → enable **"Allow GitHub Actions to create and approve pull requests"** → **Save**.
+
+This is required for the agent to open PRs (which are then auto-merged by `auto-merge.yml`).
+
+### 10. Run the agent
 
 Wait for the 12-hour cron, or trigger manually:
 
