@@ -12,5 +12,6 @@ Thumbs.db
 .env
 .env.local
 
-# Node (MCP server artifacts)
+# Node
 node_modules/
+.astro/

@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import siteData from '../data/site.json';
+---
+
+<Base title={siteData.title} description={siteData.tagline}>
+  {siteData.topics.length === 0 ? (
+    <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+      <p style="font-size: 1.25rem; margin-bottom: 0.75rem;">Site initializing...</p>
+      <p>The research agent will populate this site on its first run.</p>
+    </div>
+  ) : (
+    <>
+      <p class="section-label">Topics</p>
+      <div class="topic-grid">
+        {siteData.topics.map((topic: { slug: string; title: string; summary: string; last_updated: string }) => (
+          <a href={`topics/${topic.slug}`} class="topic-card">
+            <h3>{topic.title}</h3>
+            <p>{topic.summary}</p>
+            <div class="meta">Updated {topic.last_updated}</div>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+</Base>
