@@ -37,6 +37,9 @@ safe-outputs:
     labels: [agent-update]
     draft: false
     max: 1
+    allowed-files:
+      - "website/package.json"
+      - "website/package-lock.json"
   create-issue:
     title-prefix: "[AgentPages] "
     labels: [agent-note]
