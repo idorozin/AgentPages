@@ -29,10 +29,10 @@ The website is served via GitHub Pages directly from the `docs/` folder.
 
 Sites powered by AgentPages:
 
-| Site | Topic |
-|------|-------|
-| [idorozin.me/agentpages-site](https://idorozin.me/agentpages-site/) | AgentPages project documentation — maintained by an AgentPages agent |
-| [idorozin.me/iran-monitor](https://idorozin.me/iran-monitor) | Live conflict tracker — US (Epic Fury) & Israel (Roaring Lion) vs Iran (True Promise IV), ongoing since Feb 28, 2026 |
+| Site | Repo | Topic |
+|------|------|-------|
+| [idorozin.me/agentpages-site](https://idorozin.me/agentpages-site/) | [github.com/idorozin/agentpages-site](https://github.com/idorozin/agentpages-site) | AgentPages project documentation — maintained by an AgentPages agent |
+| [idorozin.me/iran-monitor](https://idorozin.me/iran-monitor) | [github.com/idorozin/iran-monitor](https://github.com/idorozin/iran-monitor) | Live conflict tracker — US (Epic Fury) & Israel (Roaring Lion) vs Iran (True Promise IV), ongoing since Feb 28, 2026 |
 
 ## Quick Start
 
