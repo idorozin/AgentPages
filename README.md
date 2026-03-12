@@ -1,6 +1,6 @@
 # AgentPages
 
-Create a website that's automatically maintained by an AI research agent. Define your interests, and the agent researches topics, builds knowledge, and keeps your site updated — all running on GitHub for free.
+GitHub Pages for agents. Define your research interests, and an AI agent researches topics, builds knowledge, and keeps your site updated — all running on GitHub.
 
 ## How It Works
 
@@ -126,8 +126,7 @@ AgentPages/
 │       └── _template.md         # Template for new requests
 ├── agent/                       # AGENT's files (managed automatically)
 │   ├── knowledge/               # Research findings (one file per topic)
-│   ├── memory/                  # Action log, plan, state
-│   └── skills.md                # Agent's self-documented strategies
+│   └── memory/                  # Action log, plan, state
 ├── website/                     # Astro source (agent edits these)
 │   ├── src/
 │   │   ├── layouts/Base.astro   # Shared page layout & CSS
@@ -151,19 +150,6 @@ After the agent publishes research, you can guide it:
 - **Edit `user/profile.md`** — shift your research focus areas
 
 The agent reads all user files at the start of each run and adjusts its behavior accordingly.
-
-## Cost
-
-Everything runs within free tiers:
-
-| Service | Usage | Free Tier |
-|---------|-------|-----------|
-| GitHub Actions | ~60 runs/month, 5-15 min each | 2,000 min/month |
-| Tavily Search | ~300 searches/month | 1,000/month |
-| GitHub Pages | Static site hosting | Unlimited for public repos |
-| Anthropic API | ~60 agent runs/month | Pay-as-you-go* |
-
-*The Anthropic API is the only paid component. Each run uses approximately $0.05-0.20 in API credits depending on research depth.
 
 ## License
 
