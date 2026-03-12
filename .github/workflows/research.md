@@ -38,8 +38,10 @@ safe-outputs:
     draft: false
     max: 1
     allowed-files:
-      - "website/package.json"
-      - "website/package-lock.json"
+      - "agent/**"
+      - "docs/**"
+      - "website/**"
+      - "user/**"
   create-issue:
     title-prefix: "[AgentPages] "
     labels: [agent-note]
