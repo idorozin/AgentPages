@@ -48,6 +48,11 @@ safe-outputs:
     labels: [agent-note]
     max: 1
 
+network:
+  allowed:
+    - defaults
+    - node
+
 tools:
   github:
 ---
